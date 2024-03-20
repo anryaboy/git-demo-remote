@@ -1,0 +1,27 @@
+pwd --print working directory >displays your current working directory location
+cd [loc] --change directory 
+mkdir -- make directory >creates a new folder in the current directory
+ls --lists the content
+touch [filename] --create a new file
+rm [filename] --deleting files
+---git---
+<Local >version of repository is stored on local computer
+<Remote repository <-Stored on a server or cloud
+git init   --to create .git
+
+git config --global user.name "username"
+git config --global user.email "email"
+--sets username and email in github
+
+git config --global user.name
+git config --global user.email
+--to check
+
+git .add <adds all modified files 
+
+git add {filename] <adds specific file 
+
+git commit -m"message" filename
+git log <displays all commits that we made
+git log --online  <for condenst  version of git log
+
